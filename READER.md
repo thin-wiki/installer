@@ -1,0 +1,1 @@
+thin-wiki 安装器
