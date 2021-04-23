@@ -1,4 +1,4 @@
-package thin.wiki.installer;
+package wiki.thin.installer;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -9,9 +9,9 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StreamUtils;
-import thin.wiki.installer.bean.AdminAccount;
-import thin.wiki.installer.bean.DatabaseData;
-import thin.wiki.installer.bean.Website;
+import wiki.thin.installer.bean.AdminAccount;
+import wiki.thin.installer.bean.DatabaseData;
+import wiki.thin.installer.bean.Website;
 import wiki.thin.service.PasswordService;
 
 import javax.servlet.http.HttpServletRequest;

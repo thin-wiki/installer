@@ -1,11 +1,11 @@
-package thin.wiki.installer;
+package wiki.thin.installer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.*;
-import thin.wiki.installer.bean.AdminAccount;
-import thin.wiki.installer.bean.DatabaseData;
-import thin.wiki.installer.bean.Website;
+import wiki.thin.installer.bean.AdminAccount;
+import wiki.thin.installer.bean.DatabaseData;
+import wiki.thin.installer.bean.Website;
 import wiki.thin.common.AppSystem;
 import wiki.thin.web.vo.ResponseVO;
 import javax.servlet.http.HttpServletRequest;

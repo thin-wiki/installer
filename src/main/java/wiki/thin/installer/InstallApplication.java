@@ -1,4 +1,4 @@
-package thin.wiki.installer;
+package wiki.thin.installer;
 
 import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.mybatis.spring.boot.autoconfigure.MybatisLanguageDriverAutoConfiguration;

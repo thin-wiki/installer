@@ -1,4 +1,4 @@
-package thin.wiki.installer.bean;
+package wiki.thin.installer.bean;
 
 import lombok.Data;
 

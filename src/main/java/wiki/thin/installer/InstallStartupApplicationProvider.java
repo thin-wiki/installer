@@ -1,4 +1,4 @@
-package thin.wiki.installer;
+package wiki.thin.installer;
 
 import org.springframework.boot.SpringApplication;
 import wiki.thin.core.startup.StartupApplicationProvider;

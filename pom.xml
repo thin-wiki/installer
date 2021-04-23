@@ -7,7 +7,7 @@
         <version>2.4.5</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>thin.wiki</groupId>
+    <groupId>wiki.thin</groupId>
     <artifactId>installer</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <name>install</name>
@@ -18,13 +18,20 @@
             <id>beldon</id>
             <name>beldon</name>
             <email>beldon@vip.qq.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>+8</timezone>
         </developer>
     </developers>
     <properties>
         <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <scm>
         <developerConnection>scm:git:git@github.com:thin-wiki/installer</developerConnection>
+        <url>https://github.com/thin-wiki/installer</url>
+        <connection>https://github.com/thin-wiki/installer.git</connection>
         <tag>HEAD</tag>
     </scm>
     <dependencies>
@@ -66,7 +73,7 @@
             </activation>
         </profile>
         <profile>
-            <id>deploy</id>
+            <id>lib</id>
             <build>
                 <plugins>
                     <plugin>
@@ -103,6 +110,19 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${maven-javadoc-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <artifactId>maven-source-plugin</artifactId>
