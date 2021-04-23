@@ -22,7 +22,7 @@ import wiki.thin.service.impl.PasswordServiceImpl;
         MybatisAutoConfiguration.class,
         JdbcTemplateAutoConfiguration.class,
         DataSourceAutoConfiguration.class
-}, scanBasePackages = "thin.wiki.installer")
+}, scanBasePackages = "wiki.thin.installer")
 @EnableConfigurationProperties
 @Import(WebConfig.class)
 @Profile("install")
