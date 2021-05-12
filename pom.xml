@@ -9,7 +9,7 @@
     </parent>
     <groupId>wiki.thin</groupId>
     <artifactId>installer</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>install</name>
     <description>thin wiki installer</description>
     <url />
@@ -32,7 +32,7 @@
         <developerConnection>scm:git:git@github.com:thin-wiki/installer</developerConnection>
         <url>https://github.com/thin-wiki/installer</url>
         <connection>https://github.com/thin-wiki/installer.git</connection>
-        <tag>HEAD</tag>
+        <tag>v0.0.2</tag>
     </scm>
     <dependencies>
         <dependency>
