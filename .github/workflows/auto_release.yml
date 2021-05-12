@@ -26,6 +26,6 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "target/thin-*.tar.gz,target/thin-wiki.jar"
+          artifacts: "target/*.jar"
           bodyFile: "release.md"
           token: ${{ secrets.TOKEN }}
